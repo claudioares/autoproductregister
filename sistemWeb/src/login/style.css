@@ -1,0 +1,37 @@
+.container_index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid white;
+
+    height: 500px auto;
+    
+    padding: 40px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button_index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-color: rgb(91, 9, 76);
+    color: rgb(223, 209, 209);
+
+}
+.button_index:hover{
+    background-color: rgb(23, 23, 64);
+}
+a{
+    text-decoration: none;
+}
